@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>门户网站</title>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		<link rel="stylesheet" type="text/css" href="css/about.css"/>
+		<link rel="stylesheet" type="text/css" href="css/team.css"/>
+		<link rel="stylesheet" type="text/css" href="css/navBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/works.css"/>
+		<link rel="stylesheet" type="text/css" href="css/plans.css"/>
+		<link rel="stylesheet" type="text/css" href="css/projects-contact.css"/>
+		<link rel="stylesheet" type="text/css" href="css/danMu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<div id="navBar">
+			<h1><img src="img/logo.png"/><span> 黑 洞 </span></h1>
+			<nav>
+				<a href="#" class="currentPage">Home</a>
+				<a href="#about">About</a>
+				<a href="#works">Works</a>
+				<a href="#team">Team</a>
+				<a href="#plans">Plans</a>
+				<a href="#projects">Projects</a>
+				<a href="#prijectFore">Contact</a>
+			</nav>	
+		</div>
+		<!--home部分-->
+		<div class="home" id="home">
+			
+			<div class="home_main">
+				<div class="home-banner">
+					<img class="home-img" src="img/1.jpg"/>
+					<div class="home-f">
+						<p class="home-p1">LOOK ALWAYS ONLY<span>SUCCESSFUL</span></p>
+						<p class="home-p2">NEXT MEETUP | 30.03.2017 | 10:00 AM</p>
+						<p class="home-p3">LEARN MORE</p>
+					</div>
+					
+				</div>
+				
+				<div class="home-banner">
+					<img class="home-img" src="img/2.jpg"/>
+					<div class="home-f">
+						<p class="home-p1">LOOK ALWAYS ONLY<span>SUCCESSFUL</span></p>
+						<p class="home-p2">NEXT MEETUP | 30.03.2017 | 10:00 AM</p>
+						<p class="home-p3">LEARN MORE</p>
+					</div>
+
+					
+				</div>
+				
+				<div class="home-banner">
+					<img class="home-img" src="img/3.jpg"/>
+					<div class="home-f">
+						<p class="home-p1">LOOK ALWAYS ONLY<span>SUCCESSFUL</span></p>
+						<p class="home-p2">NEXT MEETUP | 30.03.2017 | 10:00 AM</p>
+						<p class="home-p3">LEARN MORE</p>
+						
+					</div>
+					
+				</div>
+			</div>
+			<a href="#about" class="home-round">↓</a>
+			
+			<div class="home-slide">
+					<i class="home-slide-i"></i>
+					<i></i>
+					<i></i>
+			</div>
+		</div>
+		<!--about部分-->
+		<div class="about" id="about">
+			<h1 style="text-align: center;">ABOUT US</h1>
+			<div class="about_left">
+				<p class="worning"><img src="img/箭头.png"/>点击左上角小图片，有秘密</p>
+				<div style="position:absolute;left:4%;top:27%">
+					<div style="position:absolute;width:480px;height:500px;background:#000"></div>
+					<div id="screen" style="position:absolute;width:480px;height:400px;overflow:hidden;top: 50px;">
+			
+					</div>
+				</div>
+				<div id="images" style="position:absolute;left:-10000px;top:-10000px;">
+					<img onload="setTimeout('starter();',300)" src="img/about2.jpg">
+					<img src="img/about1.jpg">
+					<img src="img/about2.jpg">
+					<img src="img/about3.jpg">
+					<img src="img/about4.jpg">
+					
+					<img src="img/about6.jpg">
+					<img src="img/about7.jpg">
+					<img src="img/about1.jpg">
+					<img src="img/about4.jpg">
+					<img src="img/about5.jpg">
+					<img src="img/about6.jpg">
+					<img src="img/about7.jpg">
+					<img src="img/about1.jpg">
+					<img src="img/about2.jpg">
+					<img src="img/about3.jpg">
+					<img src="img/about3.jpg">
+					<img src="img/about5.jpg">
+					
+				</div>
+			</div>
+			<div class="about_right" onclick="marquee()">
+				<div class="about_f">
+					<h4>Who We Are</h4>
+					<h1> ABOUT US</h1>
+					<p>
+						<form name="show">
+							<textarea rows=6 cols=60 wrap="virtual" name="marquee1" placeholder="点我试试看。。。" style="outline: none;" id="daZiJi"></textarea>
+						</form>
+					</p>
+					<h4>LEARN MORE</h4>
+				</div>
+				<div class="about_img">
+					<div class="about_kuang">
+						<img src="img/a1.jpg"/>
+						<h3>AWESOME FEATURES</h3>
+						<p>
+							Lorem ipsum dolor sit amet,<br /> 
+							consectetur adipisc elit.
+						</p>
+					</div>
+					<div class="about_kuang">
+						<img src="img/a2.jpg"/>
+						<h3>AWESOME FEATURES</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisc elit.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--works部分-->
+		<div id="works">
+			<p id="worksP1"> W o r k &nbsp;&nbsp; D e t a i l s </p>
+			<p id="worksP2"> O U R &nbsp;&nbsp; W O R K S </p>
+			<!--轮播-->
+			<div id="worksLunBoBox">
+				<div id="worksLunBo">
+					<div id="worksLunBo_photo" style="left:-600px;">
+						<img src="img/p6.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p1.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p2.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p3.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p4.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p5.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p6.jpg" alt="图片无法加载，请检查您的网络" />
+						<img src="img/p1.jpg" alt="图片无法加载，请检查您的网络" />
+					</div>
+					<a href="javascript:;" id="prev" class="arrow"><img src="img/left.png"/></a>
+					<a href="javascript:;" id="next" class="arrow"><img src="img/right.png"/></a>
+				</div>
+			</div>
+			
+			<!--数字变换-->
+			<div id="worksShuZi">
+				<!--背景图片-->
+				<img src="img/5.jpg" id="worksBeiJing" />
+				<!--数字变换-->
+				<div id="worksTuBiao1">
+					<img src="img/worksPo4.png" id="worksPo1"/>
+					<span id="worksSpan1">50</span>
+					<div id="worksTuBiao1_box">
+						<p>Creative Design</p>
+						<div></div>
+					</div>
+				</div>
+				<div id="worksTuBiao2">
+					<img src="img/worksPo2.png" id="worksPo1"/>
+					<span id="worksSpan2">30</span>
+					<div id="worksTuBiao1_box">
+						<p>Happy Clients</p>
+						<div></div>
+					</div>
+				</div>
+				<div id="worksTuBiao3">
+					<img src="img/worksPo1.png" id="worksPo1"/>
+					<span id="worksSpan3">44</span>
+					<div id="worksTuBiao1_box">
+						<p>People Loved</p>
+						<div></div>
+					</div>
+				</div>				
+			</div>	
+		</div>
+		<!--team部分-->
+		<div class="team" id="team">
+			<h1>MEET OUR TEAM</h1>
+			<div class="team_main">
+				<div class="team_wrap">
+					<div class="team_item">
+						<img src="zhiChang/zhichang01.jpg" />
+						<p class="team_wrap_font"><strong>IT</strong>
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+						</p>
+					</div>
+				</div>
+				<div class="team_wrap">
+					<div class="team_item">
+						<img src="zhiChang/zhichang02.jpg" />
+						<p class="team_wrap_font" id="team_wrap_font2"><strong>IT</strong>
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+						</p>
+					</div>
+				</div>
+				<div class="team_wrap">
+					<div class="team_item">
+						<img src="zhiChang/zhichang10.jpg" />
+						<p class="team_wrap_font"><strong>IT</strong>
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+						</p>
+					</div>
+				</div>
+				
+				<div class="team_wrap">
+					<div class="team_item">
+						<img src="zhiChang/zhichang07.jpg" />
+						<p class="team_wrap_font"><strong>IT</strong>
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+						</p>
+					</div>
+				</div>
+				<div class="team_wrap">
+					<div class="team_item">
+						<img src="zhiChang/zhichang08.jpg" />
+						<p class="team_wrap_font"><strong>IT</strong>
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+						</p>
+					</div>
+				</div>
+				<div class="team_wrap">
+					<div class="team_item">
+						<img src="zhiChang/zhichang09.jpg" />
+						<p class="team_wrap_font"><strong>IT</strong>
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+							1.互联网有广阔的发展空间
+							2.网络疏远了现实中人们之间的关系
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--plans-->
+		<div id="plans" class="plans">
+			<p id="plans_p1">OUR PLANS</p>
+			<div id="plan">
+				<div id="planP1">
+					<p id="planP1_1"> Basic Plan</p>
+					<p id="planP1_2"> $10<br />Per Month</p>
+					<p id="planP1_3"> Free Setup</p>
+					<p id="planP1_4"> GB Storage 10</p>
+					<p id="planP1_5"> Unlimited User</p>
+					<p id="planP1_6"> GB Bandwidth 20</p>
+					<button id="button1" class="planButton">Sign Up</button>
+				</div>
+				<div id="planP2">
+					<p id="planP2_1"> Basic Plan</p>
+					<p id="planP2_2"> $30<br />Per Month</p>
+					<p id="planP2_3"> Free Setup</p>
+					<p id="planP2_4"> GB Storage 30</p>
+					<p id="planP2_5"> Unlimited User</p>
+					<p id="planP2_6"> GB Bandwidth 30</p>
+					<button id="button2" class="planButton">Sign Up</button>
+				</div>
+				<div id="planP3">
+					<p id="planP3_1"> Basic Plan</p>
+					<p id="planP3_2"> $60<br />Per Month</p>
+					<p id="planP3_3"> Free Setup</p>
+					<p id="planP3_4"> GB Storage 40</p>
+					<p id="planP3_5"> Unlimited User</p>
+					<p id="planP3_6"> GB Bandwidth 20</p>
+					<button id="button3" class="planButton">Sign Up</button>
+				</div>
+				<div id="planP4">
+					<p id="planP4_1"> Basic Plan</p>
+					<p id="planP4_2"> $90<br />Per Month</p>
+					<p id="planP4_3"> Free Setup</p>
+					<p id="planP4_4"> GB Storage 50</p>
+					<p id="planP4_5"> Unlimited User</p>
+					<p id="planP4_6"> GB Bandwidth 40</p>
+					<button id="button4" class="planButton">Sign Up</button>
+				</div>
+	        </div>
+	        <div id="plansImg">
+	        	<img src="img/2.jpg" />   
+	        </div>
+	        
+	        <div class="plans_mask" id="plans_mask">
+				<div class="plans_tanKuang" id="plans_tanKuang">
+					<span id="plans_close">×</span>
+					<h3>开心一刻</h3>
+					<p>
+						1.我：老板，今年您给我的年终奖不太对，好像多了一点…老板微笑：好样的，你是个诚实的好员工，快拿来我看看……我：您看，就是这里，多了一个小数点。老板：滚!<br />
+						2.“其实有个秘密从未告诉你们，这才是我的本体。一直以来我耗费灵力维持人类的形态，可结束的时候终于到来了。谢谢陪伴我的日子，再见了。”------打算在办公桌上留这么一张字条，上面放一个火龙果，然后回家睡大觉去。
+					</p>
+				</div>
+			</div>	        
+		</div>
+		
+		<!--projects-->
+		<div id="projects" class="projects">
+			<div id="projectOne">
+				<div class="pObe_title">OUR PROJECTS</div>
+				<div class="pOne_imgs">
+					<figure class="view view1">
+						<img src="images/p1.jpg" alt="加载失败" />
+						<figcaption>
+							<h2>团队的力量</h2>
+							<p class="p1">相互作用</p>
+							<p class="p2">相互依赖</p>
+							<p class="p3">共同发展</p>
+						</figcaption>
+					</figure>
+					
+					<figure class="view view2">
+						<img src="images/p2.jpg" alt="加载失败" />
+						<figcaption>
+							<h2>团队特点</h2>
+							<p class="info1">以目标为导向</p>
+							<p class="info2">以协作为基础</p>
+							<p class="info3">需要共同的规范和方法</p>
+						</figcaption>
+					</figure>
+					
+					<figure class="view view3">
+						<img src="images/p3.jpg" alt="加载失败" />
+						<figcaption>
+							<h2>团队定义</h2>
+							<p>管理学家斯蒂芬·P·罗宾斯认为：
+								团队就是由两个或者两个以上的，
+								相互作用，相互依赖的个体，为了
+								特定目标而按照一定规则结合在一起的组织。<br>
+							</p>
+						</figcaption>
+					</figure>
+					
+					<figure class="view  view4">
+					<img src="images/p4.jpg" alt="加载失败" />
+					<figcaption>
+						<h2>团队</h2>
+						<div class="topAndBottom"></div>
+						<div class="leftAndRight"></div>
+					</figcaption>
+				</figure>
+					
+					<figure class="view view5">
+						<img src="images/p5.jpg" alt="加载失败" />
+						<figcaption>
+							<h2>Team</h2>
+							<p>团队（Team）是由基层和管理层<br>人员组成的一个共同体，
+								它合理<br>利用每一个成员的知识和技能协同<br>工作，解决问题
+								，达到共同的目标
+								
+							</p>
+							<div class="view5_box"></div>
+						</figcaption>
+					</figure>
+					
+					<figure class="view view6">
+						<img src="images/p6.jpg" alt="加载失败" />
+						<!--标签定义figure元素的标题-->
+						<figcaption>
+							<h2>团队-Team</h2>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div id="projectThree">
+				
+				
+				<div class="pThree_box1">
+					<h2>Address</h2>
+					<p>New York 3000</p>
+					<p>40019 Honey Street,</p>
+					<p>Morocco Casablanca</p>
+				</div>
+				<div class="pThree_box2">
+					<h2>Phone</h2>
+					<p>Telephone : +1 (734) 123-4567</p>
+					<p>+2158 85467</p>
+					<p>+2158 85467</p>
+				</div>
+				<div class="pThree_box3">
+					<img src="img/xinFeng.png" id="xinFeng" />
+					<h2>Email</h2>
+					<p>info@example.com</p>
+				</div>
+				<div id="box">
+					<video width="75%" height="" src="img/互联网.mp4" controls="controls" id="video" ></video>
+					<div id="bottom">
+						<div id="pingLun">
+							<input type="text" name="text" id="text" placeholder="来说点什么吧。。。" />
+							<button id="button"> 发 布 </button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="prijectFore">
+				<div class="pFore_title">CONTACT US</div>
+				<div class="pFore_left">
+					<input type="text" placeholder="Name" required/>
+					<input type="text"s placeholder="Email" required/>
+					<input type="text" placeholder="Phone number" required/>
+				</div>
+				<div class="pFore_right">
+					<textarea placeholder="Message" name="" id="" cols="60" rows="8"></textarea>
+				</div>
+				<button class="pFore_btn" type="submit">SUBMIT</button>
+				<div class="pFore_bom">
+					<img src="img/contentFooter.png" />
+				</div>
+			</div>
+			
+			<div id="projectFive">
+				<div class="pFive_one">
+					<h2>ABOUT US</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+				</div>
+				<div class="pFive_two">
+					<h2>GET IN TOUCH</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+				</div>
+				<div class="pFive_three">
+					<h2>LATEST WORKS</h2>
+					<img src="img/a1.jpg" alt="" />
+					<img src="img/a2.jpg" alt="" />
+					<img src="img/a2.jpg" alt="" />
+					<img src="img/a1.jpg" alt="" />
+				</div>
+				<div class="pFive_fore">
+					<h2>SUBSCRIBE</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum has</p>
+					<input type="text" placeholder="Enter You Email"/>
+					<button class="pFive_btn">SUBMIT</button>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<img src="img/move-up.png" class="returnTop" style="z-index: 100;"/>
+		
+		<div id="footer">
+			<p>Copyright © 2017.IT黑洞</p>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script src="js/navBar.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<script type="text/javascript" src="js/about.js" ></script>
+<script src="js/works.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/danMu.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/JS_about.js" type="text/javascript" charset="utf-8"></script>

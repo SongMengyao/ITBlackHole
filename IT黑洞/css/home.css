@@ -1,0 +1,143 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+
+
+.home{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: pink;
+	z-index: 2;
+}
+.home-banner{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+.home-img{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	top: 0;
+}
+.home-f{
+	position: absolute;
+	color: white;
+	width: 80%;
+	left: 10%;
+	top: 35%;
+}
+.home p{
+	margin-bottom: 30px;
+	word-spacing: 6px;
+	letter-spacing: 3px;
+	font-family: "微软雅黑";
+}
+.home-p1{
+	font-size: 2.5em;
+	font-weight: bolder;
+}
+.home-p1 span{
+	margin-left: 20px;
+	background: #2529D8;
+}
+.home-p2{
+	font-size: 15px;
+	color: red;
+}
+.home-p3{
+	font-size: 15px;
+	float: left;
+	cursor: pointer;
+}
+.home-lines{
+	width: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+.home-line{
+	width: 200px;
+	height: 2px;
+	display: block;
+	background: white;
+	position: absolute;
+}
+.home-line1{
+	background: #2529D8;
+	z-index: 2;
+	width: 0;
+}
+
+.home-p3:hover .home-line1{
+	width: 200px;
+}
+.home-round{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 1.5px dashed white;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 130px;
+	left: 48%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	font-family: "宋体";
+	animation: round 1.5s infinite;
+	cursor: pointer;
+	z-index: 9;
+	text-decoration: none;
+}
+@keyframes round{
+	0%{}
+	25%{bottom: 140px;}
+	50%{bottom: 120px;}
+	70%{bottom: 140px;}
+	100%{bottom: 130px;}
+}
+.home-slide{
+	position: absolute;
+	bottom: 12%;
+	left: 45.5%;
+	z-index: 9;
+}
+.home-slide i{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background: white;
+	cursor: pointer;
+}
+.home-slide .home-slide-i{
+	background: #2529D8;
+}
+
+.returnTop{
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

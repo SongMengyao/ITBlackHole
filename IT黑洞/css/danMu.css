@@ -1,0 +1,84 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+/*只有给父元素设置了宽高,才能用百分比给它设置宽高*/
+
+#box {
+	position: relative;
+	width: 55%;
+	height: 400px;
+	overflow: hidden;
+	top:-398px;
+	background: #808080;
+}
+
+#video {
+	display: block;
+	margin: 0px auto;
+}
+
+#bottom {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	bottom: 0px;
+	background-color: gray;
+}
+
+#pingLun {
+	position: absolute;
+	width: 79%;
+	height: 80px;
+	left: 22px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	line-height: 80px;
+}
+
+#text {
+	position: relative;
+	height: 30px;
+	width: 82%;
+	background-color: gainsboro;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	border: none;
+}
+
+#button {
+	position: relative;
+	height: 30px;
+	width: 13%;
+	cursor: pointer;
+	border: none;
+	background-color: red;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: white;
+}
+
+#span {
+	width: 300px;
+	height: 40px;
+	position: absolute;
+	overflow: hidden;
+	color: #FFA500;
+	font-size: 18px;
+	line-height: 40px;
+	cursor: pointer;
+	white-space: nowrap;
+	z-index: 100;
+}
+
+
+

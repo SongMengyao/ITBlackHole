@@ -1,0 +1,253 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+#plansImg{
+	position: fixed;
+	margin-top: 300px;
+	z-index: 1;
+}
+#plans{
+	position: relative;
+}
+#plans_p1{
+	position: absolute;
+	font-family: arial;
+	font-size: 40px;
+	color: white;
+	left: 42%;
+	top: 80px;
+	z-index: 5;
+}
+
+#plan{
+	position: relative;
+	background: url(../img/2.jpg) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 800px;
+}
+#planP1,#planP2,#planP3,#planP4{
+	position: relative;
+	width: 250px;
+	height: 420px;
+	left: 100px;
+	float: left;
+	text-align: center;
+	background: white;
+	margin-top: 200px;
+	transition: all 0.5s;
+}
+#planP1:hover,#planP2:hover,#planP3:hover,#planP4:hover{
+	transform: scale(1.1);
+}
+#planP1_1,#planP2_1,#planP3_1,#planP4_1{
+	position: absolute;
+	width: 250px;
+	height: 55px;
+	line-height: 55px;
+	top: 0;
+	color: white;
+	background: #111490;
+	font-size: 25px;
+}
+#planP1_2,#planP2_2,#planP3_2,#planP4_2{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 30px;
+	top: 55px;
+	color: white;
+	background: #2529D8;
+}
+#planP1_3,#planP2_3,#planP3_3,#planP4_3{
+	position: absolute;
+	width: 250px;
+	height: 55px;
+	line-height: 55px;
+	background: white;
+	color: grey;
+	top: 120px;
+}
+#planP1_4,#planP2_4,#planP3_4,#planP4_4{
+	position: absolute;
+	width: 250px;
+	height: 55px;
+	line-height: 55px;
+	color: grey;
+	background: #EEEEEE;
+	top: 175px;
+}
+#planP1_5,#planP2_5,#planP3_5,#planP4_5{
+	position: absolute;
+	width: 250px;
+	height: 55px;
+	line-height: 55px;
+	color: grey;
+	background: white;
+	top: 230px;
+}
+#planP1_6,#planP2_6,#planP3_6,#planP4_6{
+	position: absolute;
+	width: 250px;
+	height: 55px;
+	line-height: 55px;
+	color: grey;
+	background: #EEEEEE;
+	top: 285px;
+}
+#planP1_7,#planP2_7,#planP3_7,#planP4_7{
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	line-height: 65px;
+	color: grey;
+	top: 340px;
+}
+#button1,#button2,#button3,#button4{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	top: 370px;
+	left: 85px;
+	border: 0;
+	color: white;
+	background: #2529D8;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px gray;
+	border-radius: 5px;
+}
+
+#planP2{
+	position: relative;
+	width: 250px;
+	height: 420px;
+	float: left;
+	left: 150px;
+	background: white;
+	text-align: center;
+	margin-top: 200px;
+	transition: all 0.5s;
+}
+#planP2_1{	
+	background:#E6A908;
+}
+#planP2_2{
+	background: #FFB900;
+}
+#planP2_3{
+	color: grey;	
+}
+#planP2_4{
+	color: grey;
+	background: #EEEEEE;	
+}
+#planP2_5{
+	color: grey;
+	background: white;	
+}
+#planP2_6{
+	color: grey;
+	background: #EEEEEE;	
+}
+#planP2_7{
+	background: white;
+}
+#button2{
+	color: white;
+	border: 0;
+	background: #FFB900;
+}
+
+#planP3{
+	position: relative;
+	width: 250px;
+	height: 420px;
+	float: left;
+	left: 200px;
+	margin-top: 200px;
+	text-align: center;
+	background: white;
+	transition: all 0.5s;
+}
+#planP3_1{
+	color: white;
+	background: #2DD29D;
+}
+#planP3_2{;
+	color: white;
+	background: #3BE8B0;
+}
+#planP3_3{
+	color: grey;
+	background: white;
+}
+#planP3_4{
+	color: grey;
+	background: #EEEEEE;
+}
+#planP3_5{
+	color: grey;
+	background: white;
+}
+#planP3_6{
+	color: grey;
+	background:#EEEEEE;
+}
+#planP3_7{
+	background: white;
+}
+#button3{
+	color: white;
+	border: 0;
+	background: #3BE8B0;
+}
+
+
+#planP4{
+	position: relative;
+	width: 250px;
+	height: 420px;
+	float: left;
+	left: 250px;
+	margin-top: 200px;
+	text-align: center;
+	background: white;
+	transition: all 0.5s;
+}
+
+#planP4_1{
+	color: white;
+	background: #BD0C12;
+}
+#planP4_2{
+	color: white;
+	background: #DE0F17;
+}
+#planP4_3{
+	color: grey;
+	background: white;
+}
+#planP4_4{
+	color: grey;
+	background: #EEEEEE;
+}
+#planP4_5{
+	color: grey;
+	background: white;
+}
+#planP4_6{
+	color: grey;
+	background: #EEEEEE;																																																																																															
+}
+#planP4_7{
+	background: white;
+}
+#button4{
+	color: white;
+	border: 0;
+	background: #DE0F17;
+}

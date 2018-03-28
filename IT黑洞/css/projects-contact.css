@@ -1,0 +1,546 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+}
+
+#projects{
+	position: absolute;
+	background-color: white;
+	height: auto;
+	width: 100%;
+	z-index: 3;
+}
+
+#projectOne{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 50px;
+}
+.pObe_title{
+	padding-top: 50px;
+	text-align: center;
+    font-size: 2.3em;
+	text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #111;
+    font-weight: 700;
+}
+.pOne_imgs{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+.pOne_imgs .view{
+	margin: 15px;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.pOne_imgs img{
+	width: 380px;
+	transition: all .5s;
+	overflow: hidden;
+}
+
+#projectTwo{
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+	height: 700px;
+}
+#projectTwo .pTwo_avdio{
+	position: relative;
+	height: 700px;
+	top: 0;
+	left:100px;
+}
+#projectTwo .dm{
+	position: relative;
+	width: 100%;
+	height: 700px;
+	top: -700px;
+	z-index: 5;
+	
+}
+#projectTwo .button{
+	z-index: 9;
+	float: right;
+	margin-top: 650px;
+	margin-right: 120px;
+}
+#projectTwo .dm .screen{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#projectTwo .screen .mask{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+#projectTwo .dm .screen .s_close{
+	width: 38px;
+	height: 38px;
+	background-color: #600;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 19px;
+	z-index: 2;
+}
+#projectTwo .dm .screen .s_show{
+	position: relative;
+	z-index: 3;
+}
+#projectTwo .dm .screen .s_show div{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	line-height: 36px;
+	font-size: 22px;
+	color: #fff;
+}
+#projectTwo .dm .sent{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #000;
+	z-index: 2;
+}
+#projectTwo .dm .sent .s_txt{
+	width: 200px;
+	height: 36px;
+	font-size: 16px;
+	margin:0 0 0 600px ;
+	color: #666;
+	line-height: 36px;
+}
+#projectTwo .dm .sent .s_sub{
+	width: 100px;
+	height: 36px;
+	font-size: 14px;
+	background: #65c33d;
+}
+#projectTwo .dm .sent .s_sub:hover{
+	background: red;
+}
+
+
+#projectThree{
+	float: left;
+	width: 100%;
+	height: 400px;
+	color: #fff;
+	overflow: hidden;
+}
+.pThree_box{
+	float: left;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+.pThree_box .pThree_box_p{
+	position: absolute;
+	font-size: 25px;
+}
+.pThree_box img{
+	float: left;
+}
+#projectThree .pThree_box1{
+	width: 300px;
+	height: 75%;
+	float: right;
+	background: #2529D8;
+}
+#projectThree .pThree_box1 h2{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+#projectThree .pThree_box1 p{
+	line-height: 50px;
+	margin-left: 50px;
+}
+#projectThree .pThree_box2{
+	width: 300px;
+	height: 75%;
+	float: right;
+	background: #DE0F17;
+}
+#projectThree .pThree_box2 h2{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+#projectThree .pThree_box2 p{
+	line-height: 50px;
+	margin-left: 50px;
+}
+#projectThree .pThree_box3{
+	position: relative;
+	margin-left: 75%;
+	width: 600px;
+	height: 25%;
+	float: right;
+	background: #101010;
+}
+#projectThree .pThree_box3 h2{
+	position: relative;
+	top: -37px;
+	left: 73px;
+}
+#projectThree .pThree_box3 p{
+	position: relative;
+	top: -26px;
+	left: 23px;
+	opacity: .5;
+}
+
+
+
+#prijectFore{
+	float: left;
+	width: 100%;
+	height: 700px;
+	margin-top: 5px;
+	background: url(../images/2.jpg);
+}
+
+#prijectFore .pFore_title{
+	margin-top: 100px;
+	text-align: center;
+    font-size: 2.3em;
+    color: #fff;
+    font-weight: bolder;
+}
+.pFore_left{
+	width: 35%;
+	float: left;
+	height: 200px;
+	margin-left: 14%;
+	margin-top: 50px;
+}
+.pFore_left input{
+	padding-left: 20px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 16px;
+	width:90%;
+	margin: 10px 5px;
+	height: 50px;
+	border: none;
+}
+.pFore_right{
+	width: 35%;
+	float: left;
+	height: 200px;
+	margin-left: 2%;
+	margin-top: 50px;
+}
+.pFore_right textarea{
+	margin: 10px 5px;
+	border: none;
+	color: #FFFFFF;
+	font-size:16px ;
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+}
+.pFore_btn{
+	float: left;
+	margin-left: 43%;
+	width: 200px;
+	height: 50px;
+	background: red;
+	text-align: center;
+	font-size: 18px;
+	line-height: 50px;
+	letter-spacing: 8px;
+	margin-top: 100px;
+	font-weight: bolder;
+	color: #fff;
+	cursor: pointer;
+	transition: all .5s; 
+	border: none;
+}
+.pFore_bom{
+	float: left;
+	width: 400px;
+	height: 80px;
+	margin-top: 200px;
+	margin-left: -286px;
+}
+
+
+#xinFeng{
+	width: 50px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+
+
+#projectFive{
+	width: 100%;
+	height: 500px;
+	background: #171616;
+	float: left;
+	color:#fff;
+}
+#projectFive h2{
+	margin:80px 0px 30px 0px;
+}
+#projectFive p{
+	color: #999;
+}
+.pFive_one{
+	margin-left: 14% !important;
+}
+#projectFive div{
+	float: left;
+	width: 15%;
+	height: 300px;
+	margin-left: 4%;
+}
+.pFive_three img{
+	float: left;
+	width: 100px;
+}
+.pFive_fore input{
+	margin: 20px 0px;
+	height: 30px;
+	width: 100%;
+}
+.pFive_btn{
+	height: 40px;
+	width: 120px;
+	color: #FFFFFF;
+	font-size: 16px;
+	background: #de0f17;
+	border: none;
+	cursor: pointer;
+	transition: all .5s;
+}
+.pFive_btn:hover{
+	background: #2529d8;
+}
+
+
+
+.view:hover img{
+	opacity: .5;
+}
+.view1 h2{
+	position: absolute;
+	top:40px;
+	left:50px;
+	transition: all .5s;
+}
+.view1 p{
+	position: absolute;
+	left: 50px;
+	width: 100px;
+	background: lightblue;
+	transition: all .5s;
+}
+.view1 .p1{
+	top: 130px;
+	transform: translateY(500px);
+}
+.view1 .p2{
+	top: 180px;
+	transform: translateX(-500px);
+}
+.view1 .p3{
+	top: 230px;
+	transform: translateX(500px);
+}
+.view2 h2{
+	position: absolute;
+	top:40px;
+	left:50px;
+	color: #fff;
+	transition: all .5s;
+}
+.view2 p{
+	position: absolute;
+	left: 50px;
+	width: 100px;
+	background: #fff;
+	transition: all .5s;
+}
+.view2 .info1{
+	top: 130px;
+	width: 160px;
+	transition: all .5s;
+	transform: translateX(-300px);
+}
+.view2 .info2{
+	width: 160px;
+	top: 180px;
+	transition: all .5s 0.1s;
+	transform: translateX(-300px);
+}
+.view2 .info3{
+	width: 160px;
+	top: 230px;
+	transition: all .5s 0.2s;
+	transform: translateX(-300px);
+}
+.view3 h2{
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	color: #000;
+	transform: translateY(-300px);
+	transition: all 2s;
+}
+.view3 p{
+	position: absolute;
+	bottom: 0px;
+	left: 60px;
+	opacity: 0;
+	transition: all 1s;
+}
+.view4 h2{
+	position: absolute;
+	right: 20px;
+	top: 100px;
+	opacity: 0;
+	transform-origin: 80% 30%;
+	transform: rotate(200deg);
+	transition: all 1s 0.5s;
+}
+.view4 .topAndBottom{
+	position: absolute;
+	border-top: 4px solid #000000;
+	border-bottom: 4px solid darkblue;
+	width: 0px;
+	height: 150px; 	
+	top: 70px;
+	left: 70px;
+	transition: all 1s;
+}
+.view4 .leftAndRight{
+	position: absolute;
+	border-left: 4px solid #000;
+	top: 60px;
+	left: 80px;
+	width: 100px;
+	height: 0px;
+	transition: all 1s;
+	
+}
+.view5 h2{
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	opacity: 0;
+	transition: all 1s;
+}
+.view5 p{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	opacity: 0;
+	transition: all 1.2s;
+}
+.view5 .view5_box{
+	position: absolute;
+	width:80%;
+	height: 70%;
+	top: 10%;
+	left: 10%;
+	border: 3px solid #000;
+	transform: rotate(-50deg) translateY(-400px);
+	transform-origin:0% 0%;
+	transition: all 1.7s ease; 
+}
+.view6 h2{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: rotate(30deg);
+	transition: all .5s;
+}
+
+.view1:hover img{
+	transform: translateX(20px);
+}
+.view1:hover h2{
+	transform: translateX(50px);
+}
+.view1:hover .p1{
+	transform: translateY(0px);
+}
+.view1:hover .p2{
+	transform: translateX(0px);
+}
+.view1:hover .p3{
+	transform: translateX(0px);
+}
+.view2:hover img{
+	transform: translateX(-20px);
+}
+.view2:hover p{
+	transform: translateX(0);
+}
+.view3:hover img{
+	transform: translateY(-20px);
+}
+.view3:hover h2{
+	transform: translateY(-40px);
+}
+.view3:hover p{
+	opacity: 1;
+	transform: translateY(-60px);
+}
+.view4:hover h2{
+	opacity: 1;
+	transform: translateX(-110px) rotate(360deg);
+}
+.view4:hover .topAndBottom{
+	width: 240px;
+}
+.view4:hover .leftAndRight{
+	height: 178px;	
+}
+.view5:hover h2{
+	transform: translateY(40px);
+	opacity: 1;
+}
+.view5:hover p{
+	transform: translateY(-30px);
+	opacity: 1;
+} 
+.view5:hover .view5_box{
+	transform: rotate(360deg) translateY(0px);
+}
+.view6:hover img{
+	transform: scale(1.2);
+}
+.view6:hover h2{
+	transform: rotate(390deg);
+}
